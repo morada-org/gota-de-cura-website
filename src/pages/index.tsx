@@ -1,5 +1,5 @@
-import Layout from "../components/Layout";
-import Main from "../components/Main";
+import Layout from '../components/Layout'
+import Main from '../components/Main'
 
 const Home = () => (
   <>
@@ -7,6 +7,6 @@ const Home = () => (
       <Main />
     </Layout>
   </>
-);
+)
 
-export default Home;
+export default Home
