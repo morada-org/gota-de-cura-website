@@ -109,11 +109,11 @@ export const productTypes: ProductType[] = [
     mode: 'type',
   },
   {
-    id: 'protetor-labial',
-    type: 'Protetor labial',
+    id: 'pomadas',
+    type: 'Pomadas',
     description:
-      'Protetor labial feito com óleos vegetais e óleos essenciais. Livre de conservantes.',
-    image: 'protetor-labial.jpg',
+      'Pomadas de uso tópico confeccionadas com óleos vegetais e óleos essenciais. Livre de conservantes.',
+    image: 'pomadas.jpg',
     seal: '',
     mode: 'type',
   },
