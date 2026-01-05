@@ -2,6 +2,7 @@ import cn from 'classnames'
 import { VisitCTA } from 'components/visitas/VisitCTA'
 import { VisitListDisplayer } from 'components/visitas/VisitListDisplayer'
 import Link from 'next/link'
+import { VISIT_PRICES } from '../../constants/prices'
 import styles from './../../styles/layout.module.scss'
 
 const OPEN_VISITS: boolean = true
@@ -33,10 +34,10 @@ export const VisitArea: React.FC = () => {
           <br />
           <p className="text-lg">
             <b>Valor por pessoa</b>:
-            <br /> R$ 140,00 (acima de 15 anos)
+            <br /> {VISIT_PRICES.ADULT} (acima de 15 anos)
             <br />
-            <span className="text-sm text-gray-700">R$ 50,00 (de 8 a 14 anos)</span>
-            <br /> <span className="text-sm text-gray-700">isento: até 7 anos</span>
+            <span className="text-sm text-gray-700">{VISIT_PRICES.CHILD} (de 8 a 14 anos)</span>
+            <br /> <span className="text-sm text-gray-700">{VISIT_PRICES.FREE}: até 7 anos</span>
           </p>
           <br />
           <br />

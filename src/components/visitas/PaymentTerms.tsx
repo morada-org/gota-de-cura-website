@@ -1,5 +1,6 @@
 import Button from 'components/shared/basic/Button'
 import { BasicModal } from 'components/shared/Layout/BasicModal'
+import { VISIT_PRICES } from '../../constants/prices'
 
 interface PaymentTermsProps {
   isOpen: boolean
@@ -16,8 +17,8 @@ export const PaymentTerms = ({ isOpen, onClose }: PaymentTermsProps) => {
           <br />
           - O deslocamento é por conta de cada um. Após fecharmos o grupo, passaremos mais
           detalhes e orientações.
-          <br />- O valor é de R$ 120,00 por pessoa acima de 15 anos / R$ 40,00 por pessoa
-          de 8 a 14 anos / isento até 7 anos.
+          <br />- O valor é de {VISIT_PRICES.ADULT} por pessoa acima de 15 anos / {VISIT_PRICES.CHILD} por pessoa
+          de 8 a 14 anos / {VISIT_PRICES.FREE} até 7 anos.
         </p>
 
         <p className="border-t font-semibold mt-3">Pagamento</p>

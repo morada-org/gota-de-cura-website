@@ -3,6 +3,7 @@ import { VisitCTA } from 'components/visitas/VisitCTA'
 import { VisitListDisplayer } from 'components/visitas/VisitListDisplayer'
 import ImageGallery from 'react-image-gallery'
 import styled from 'styled-components'
+import { VISIT_PRICES } from '../../constants/prices'
 import { images, testimony } from '../../lib/data'
 
 const StyledVisitasArea = styled.section`
@@ -91,10 +92,10 @@ const Visitas = () => {
           <p>
             <p className="text-lg">
               <b>Valor por pessoa</b>:
-              <br /> R$ 140,00 (acima de 15 anos)
+              <br /> {VISIT_PRICES.ADULT} (acima de 15 anos)
               <br />
-              <span className="text-sm text-gray-700">R$ 50,00 (de 8 a 14 anos)</span>
-              <br /> <span className="text-sm text-gray-700">isento: até 7 anos</span>
+              <span className="text-sm text-gray-700">{VISIT_PRICES.CHILD} (de 8 a 14 anos)</span>
+              <br /> <span className="text-sm text-gray-700">{VISIT_PRICES.FREE}: até 7 anos</span>
             </p>
           </p>
 
