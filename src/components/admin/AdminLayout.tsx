@@ -1,7 +1,7 @@
 import { useRouter } from 'next/dist/client/router'
 import Head from 'next/head'
 import Link from 'next/link'
-import React, { ReactNode, useEffect, useState } from 'react'
+import { ReactNode, useEffect, useState } from 'react'
 import { Toaster } from 'react-hot-toast'
 import { useGetLoggedUser } from 'services/hooks/useGetLoggedUser'
 import { UsersService } from 'services/UsersService'
@@ -93,6 +93,9 @@ const AdminLayout = ({
                   </Link>
                   <Link href="/admin/cupons">
                     <a className="navbar-item font-bold">Cupons</a>
+                  </Link>
+                  <Link href="/admin/relatorios">
+                    <a className="navbar-item font-bold">Relatórios</a>
                   </Link>
                 </>
               )}
