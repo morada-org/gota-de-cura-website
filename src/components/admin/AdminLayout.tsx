@@ -88,6 +88,9 @@ const AdminLayout = ({
               </Link>
               {isAdmin && (
                 <>
+                  <Link href="/admin/gerenciamento">
+                    <a className="navbar-item font-bold">Gerenciamento</a>
+                  </Link>
                   <Link href="/admin/visitas">
                     <a className="navbar-item font-bold">Visitas</a>
                   </Link>

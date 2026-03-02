@@ -66,6 +66,10 @@ const saveProduct = async (product: any) => {
   })
 }
 
+const deleteProduct = async (id: string) => {
+  await productsRef.doc(id).delete()
+}
+
 export const ProductsService = {
   saveProducts,
   getProducts,
@@ -74,4 +78,5 @@ export const ProductsService = {
   saveProduct,
   getProductById,
   getProductByUrlName,
+  deleteProduct,
 }
