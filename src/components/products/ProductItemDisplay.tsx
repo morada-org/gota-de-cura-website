@@ -60,7 +60,7 @@ const ProductItemDisplay = ({ item, type }: { item: ProductItem; type: string })
               </p>
             )}
             <p className="font-bold text-2xl">
-              {item.oldPrice && 'Por: '}
+              {Boolean(item.oldPrice) && 'Por: '}
               {formatCurrency(item.price)}
             </p>
           </div>
