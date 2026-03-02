@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { useDisclosure } from 'utils/hooks/useDisclosure'
 import { ProductItem } from '../../interfaces/products'
 import { CartService } from '../../services/CartService'
@@ -54,9 +54,9 @@ const ProductItemDisplay = ({ item, type }: { item: ProductItem; type: string })
           </p>
         ) : (
           <div className="my-3">
-            {item.oldPrice && (
+            {Boolean(item.oldPrice) && (
               <p style={{ marginBottom: 0 }} className="old-price">
-                De: <strong>{formatCurrency(item.oldPrice)}</strong>
+                De: <strong>{formatCurrency(item.oldPrice ?? 0)}</strong>
               </p>
             )}
             <p className="font-bold text-2xl">
