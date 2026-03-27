@@ -192,7 +192,7 @@ export const productTypes: ProductType[] = [
       </section>`,
     image: 'mtc.jpg',
     seal: 'https://firebasestorage.googleapis.com/v0/b/gota-de-luz.appspot.com/o/products%2Fseals%2Fseal-new.png?alt=media&token=9ad4fc11-08a0-43a9-b350-b20b57dbac92',
-    mode: 'category',
     areaBackground: '/images/background-china.jpg',
+    mode: 'type',
   },
 ]
