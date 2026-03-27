@@ -105,7 +105,7 @@ export const productTypes: ProductType[] = [
     type: 'Sprays tópicos',
     description: `<p>Sprays naturais para uso sobre a pele</p>`,
     image: 'sprays-topicos.jpg',
-    seal: 'https://firebasestorage.googleapis.com/v0/b/gota-de-luz.appspot.com/o/products%2Fseals%2Fseal-new.png?alt=media&token=9ad4fc11-08a0-43a9-b350-b20b57dbac92',
+    seal: '',
     mode: 'type',
   },
   {
@@ -179,7 +179,7 @@ export const productTypes: ProductType[] = [
       </section>`,
 
     image: 'amazonia.jpg',
-    seal: 'https://firebasestorage.googleapis.com/v0/b/gota-de-luz.appspot.com/o/products%2Fseals%2Fseal-new.png?alt=media&token=9ad4fc11-08a0-43a9-b350-b20b57dbac92',
+    seal: '',
     mode: 'category',
     areaBackground: '/images/background-amazonia.jpg',
   },
