@@ -187,9 +187,7 @@ export const productTypes: ProductType[] = [
     id: 'mtc',
     type: 'Medicina Tradicional Chinesa',
     typeLabel: 'Medicina Tradicional Chinesa',
-    description: `<section class="mtc-section">
-        A Medicina Tradicional Chinesa (MTC) é um sistema terapêutico milenar que busca o equilíbrio energético do corpo (Qi) através de uma abordagem holística. Utiliza técnicas como acupuntura, fitoterapia, ventosaterapia, dietoterapia e massagem Tui-Na para tratar desarmonias, focando na prevenção e no tratamento de dores, estresse e doenças crônicas.
-      </section>`,
+    description: `A Medicina Tradicional Chinesa (MTC) é um sistema terapêutico milenar que busca o equilíbrio energético do corpo (Qi) através de uma abordagem holística. Utiliza técnicas como acupuntura, fitoterapia, ventosaterapia, dietoterapia e massagem Tui-Na para tratar desarmonias, focando na prevenção e no tratamento de dores, estresse e doenças crônicas.`,
     image: 'mtc.jpg',
     seal: 'https://firebasestorage.googleapis.com/v0/b/gota-de-luz.appspot.com/o/products%2Fseals%2Fseal-new.png?alt=media&token=9ad4fc11-08a0-43a9-b350-b20b57dbac92',
     areaBackground: '/images/background-china.jpg',
