@@ -42,7 +42,7 @@ const sendNewEnrollmentEmail = async (
       <p><b>Nome</b>: ${enrollmentData.name}</p>
       <p><b>Celular</b>: ${enrollmentData.cellphone}</p>
       <p><b>Email</b>: ${enrollmentData.email}</p>
-      <p><b>Acompanhantes</b>: ${enrollmentData.companions.join(', ')}</p>
+      <p><b>Acompanhantes</b>: ${(enrollmentData.companions ?? []).join(', ')}</p>
       <p><b>Última visita</b>: ${enrollmentData.lastVisit}</p>
       
       <hr/>
